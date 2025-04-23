@@ -1,11 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Cargar el archivo CSV
-# Asegúrate de cambiar 'tu_archivo.csv' por la ruta real de tu archivo CSV
+
 df = pd.read_csv('LosDatos.csv', header=None)
 
-# Asignar nombres a las columnas si es necesario
+
 df.columns = ['Edad', 'Marital', 'Educacion', 'Saldo', 'Hipoteca', 'Prestamo', 'target']
 
 # Mostrar las primeras filas del DataFrame para verificar la carga de datos
